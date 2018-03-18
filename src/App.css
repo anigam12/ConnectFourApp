@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+.App2 {
+  text-align: center;
+  padding: 100px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+/* COMPONENT-1 HEADER */
+
+.Header{
+  font-family: monospace;
+  background-color: #FFDE00;
+  font-size: 50px;
+  display: inline;
+  padding:10px;
+  margin: 5px;
+
+}
+
+.Connect{
+  font-family: monospace;
+  font-size: 50px;
+  display: inline;
+}
+
+.heading{
+  margin-top: 30px;
+}
+
+/* NAVBAR (ROUTES) */
+.navigator{
+
+}
+
+.button {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    margin: 50px;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+/* .Board {
+  display: flex;
+}
+
+
+.Hole {
+  padding: 5px;
+  margin: 1px;
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid black;
+}
+
+.Hole div {
+  position: relative;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 4px;
+  top: -400px;
+ 
+}
+
+.Red {
+  background-color: #FF456C;
+  transform: translateY(400px);
+}
+
+.Blue {
+  background-color: #2CC5FF;
+  transform: translateY(400px);
+}
+
+.result {
+  margin: 20px;
+  font-size: 0pt;
+  font: 12pt;
+  opacity: 0;
+}
+
+.appear {
+  opacity: 1;
+  font-size: 20pt;
+}
+ */
+
+
+ .Board {
+   display: flex;
+   margin-left: 475px;
+   margin-top: 50px;
+ }
+
+ .Slat {
+
+ }
+
+ .Hole {
+   padding: 5px;
+   margin: 1px;
+   min-width: 30px;
+   min-height: 30px;
+   border: 1px solid lightblue;
+ }
+
+ .Hole div {
+   position: relative;
+   min-width: 30px;
+   min-height: 30px;
+   border-radius: 4px;
+   top: -400px;
+   transition: transform 0.5s;
+ }
+
+ .Red {
+   background-color: #FF456C;
+   transform: translateY(400px);
+ }
+
+ .Blue {
+   background-color: #2CC5FF;
+   transform: translateY(400px);
+ }
+
+ .winnerMessage {
+   margin-right: 30px;
+   margin-top:40px;
+   font-size: 0pt;
+   font: 12pt;
+   opacity: 0;
+   /* transition: all 0.5s cubic-bezier(0.18, 0.99, 0.8, 1.17); */
+ }
+
+ .appear {
+   opacity: 1;
+   font-size: 20pt;
+ }
